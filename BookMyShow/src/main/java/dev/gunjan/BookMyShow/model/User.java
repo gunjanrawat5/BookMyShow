@@ -8,7 +8,7 @@ import lombok.Setter;
 
 import java.util.List;
 
-@Entity
+@Entity(name = "BMS_USER")
 @Getter
 @Setter
 public class User extends  BaseModel{
