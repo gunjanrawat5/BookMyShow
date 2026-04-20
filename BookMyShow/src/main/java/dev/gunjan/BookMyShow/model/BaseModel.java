@@ -18,6 +18,5 @@ public abstract class BaseModel {
     private int id;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
-    private String createdBy;
-    private String updatedBy;
+
 }
